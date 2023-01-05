@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+header {
+    background: rgba(255, 217, 0, 1);
+}
+section {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.principal {
+    background-color:rgba(81, 73, 136, 1);
+    width: 43%;
+    height: 530px;
+    text-align: center;
+    padding: 15px;
+    font-size: 24.5px;
+    color: #FFFFFF;
+}
+.contador{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.timer{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(81, 73, 136, 1);
+    font-size: 60px;
+}
+
+#titulo {
+    color: #F3C61F;
+    font-size: 60px;
+    margin-top: 5px;
+}
+#subTitulo1 {
+    color: #FFFFFF;
+    font-size: 24.5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+#subTitulo2 {
+    color: rgba(227, 56, 129, 1);
+    font-size: 24.5px;
+    margin-top: 5px;
+}
+#subTitulo3 {
+    color: rgba(243, 198, 31, 1);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.timer:hover{
+    transition: 1s;
+    cursor: pointer;
+}
+#logo {
+    padding: 5px;
+}
+.passaporte img {
+    width: 150px;
+    cursor: pointer;
+}
+button {
+    width: 400px;
+    height: 100px;
+    background: #514988;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    transition: 1s;
+    color: #F3C61F;
+}
